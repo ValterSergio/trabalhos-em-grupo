@@ -1,0 +1,43 @@
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 40% 30% 30%;
+}
+
+header h1{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0px;
+}
+
+header p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin: 0px;
+
+}
+
+header figure {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    margin: 0px;
+}
+header figure img{
+    width: 100%;
+    height: 100%;
+}
+
+header nav {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 1 1 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+header nav a {
+    border: solid;
+}
