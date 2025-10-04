@@ -1,0 +1,35 @@
+body {
+    
+}
+/* 
+header h1, h2 {
+    color: #afb2ea;
+} */
+
+header {
+    background-color: #ffeff2;
+    color: #a711bb;
+}
+
+header nav {
+    background-color: transparent;
+}
+
+header nav > * {
+    background-color: #c8a0faff;
+    border-left: solid #a711bb 3px;
+    border-bottom: solid #a711bb 2px;
+    border-radius: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+header nav > *:hover {
+    transition: 1s;
+    color: #a711bb;
+    border-left-color: #a711bb;
+    border-bottom-color: #a711bb;
+    font-size: 23px;
+}

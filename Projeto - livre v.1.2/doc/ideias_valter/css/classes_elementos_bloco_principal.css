@@ -80,7 +80,7 @@
     margin: 0px; /* zerar a margin padrão*/
     padding-top: 30px;
     text-align: center;
-    text-shadow: 3px 3px rgba(167, 17, 187, 0.447);
+    text-shadow: 3px 3px #a711bb72;
     text-transform: capitalize;
     font-size: 50px;
 }

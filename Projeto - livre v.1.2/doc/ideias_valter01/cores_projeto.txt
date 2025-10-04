@@ -1,0 +1,5 @@
+cor das letras = #afb2ea
+cor de fundo = #ffeff2
+cor botao fundo = #c8a0faff
+cor letra botao = #ffffff
+cor fundo navegação = #a711bb72
