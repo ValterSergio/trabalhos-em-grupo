@@ -1,0 +1,29 @@
+main {
+
+    display: grid;
+    grid-template-columns: 22% 78%;
+    grid-template-rows: 5% 25% 70%;
+    grid-template-areas: "aside h2"
+                         "aside p"
+                         "div div";
+}
+
+main h2 {
+    grid-area: h2;
+    margin: 5% auto 5% auto;
+}
+
+main p {
+    grid-area: p;
+    margin: 10% auto 5% auto;
+    text-align: justify;
+}
+
+main aside {
+    grid-area: aside;
+}
+
+main aside > * {
+    max-width: 150px;
+    max-height: 600px;
+    }

@@ -1,18 +1,6 @@
-body {
-    
-}
-/* 
-header h1, h2 {
-    color: #afb2ea;
-} */
-
 header {
     background-color: #ffeff2;
     color: #a711bb;
-}
-
-header nav {
-    background-color: transparent;
 }
 
 header nav > * {
