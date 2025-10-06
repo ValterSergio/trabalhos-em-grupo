@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="/css/est_cabecalho.css">
     <link rel="stylesheet" href="/css/pos_principal.css">
     <link rel="stylesheet" href="/css/est_principal.css">
-    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="/css/est_login.css">
+    <link rel="shortcut icon" href="/img/slogan_site.png" type="image/x-icon">
+    <title>Login</title>
 </head>
 <body>
     <header>
@@ -17,12 +19,12 @@
             <img src="/img/slogan_site.png" alt="Slogan do site">
         </figure>
         <nav>
-            <a href="#">Menu</a>
+            <a href="/index.html">Inicio</a>
             <a href="#">Cursos</a>
             <a href="#">Conquistas</a>
             <a href="#">Perfil</a>
             <a href="#">Cadastrar</a>
-            <a href="#">Login</a>
+            <a href="/login.html">Login</a>
         </nav>
     </header>
 
@@ -40,12 +42,15 @@
         <!-- Só copiar e tacar div's aqui dentro com os conteudos de cada parte -->
         <div>
             <form>
+
                 <br>
-                <label for="nome">Nome: <input type="text" id="nome"></label>
+                <label for="emailUsuario">E-mail: <input type="text" id="emailUsuario"></label>
                 <br>
-                <label for="senha">Senha: <input type="password"  id="senha"></label>
+                <label for="senhaUsuario">Senha: <input type="password"  id="senhaUsuario"></label>
                 <br> <br>
                 <button type="submit">Confirmar</button>
+                <p>Para criar uma conta <a href="#">clique aqui</a></p>
+                <p id="resultadoLogin"></p>
             </form>
         </div>
     </main>

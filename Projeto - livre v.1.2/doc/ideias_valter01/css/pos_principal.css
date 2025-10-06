@@ -2,7 +2,7 @@ main {
 
     display: grid;
     grid-template-columns: 22% 78%;
-    grid-template-rows: 5% 25% 70%;
+    grid-template-rows: 15% 20% 65%;
     grid-template-areas: "aside h2"
                          "aside p"
                          "aside div";
@@ -10,25 +10,24 @@ main {
 
 main h2 {
     grid-area: h2;
-    margin: 5% auto 5% auto;
 }
 
 main p {
     grid-area: p;
-    margin: 10% auto 5% auto;
-    text-align: justify;
+    
 }
 
 main aside {
     grid-area: aside;
 }
 
-main aside > * {
-    max-width: 150px;
-    max-height: 600px;
-    }
+main aside > img {
+    width: 150px;
+    height: 150px;
+}
 
 main div {
     grid-area: div;
-    border: solid;
+    width: 90%;
+    justify-self: center;
 }

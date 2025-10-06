@@ -1,4 +1,22 @@
-main {
+main, main > * {
     background-color: #ffeff2;
     color: #a711bb;
 }
+
+main > p {
+    font-size: larger;
+    text-align: justify;
+}
+
+main > h2 {
+    font-size: xx-large;
+}
+
+main aside > * {
+    transition: 0.8s;
+}
+main aside > *:hover {
+    border: solid 1px;
+    box-shadow: 2px 2px;
+}
+
