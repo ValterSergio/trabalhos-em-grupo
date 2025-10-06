@@ -16,8 +16,9 @@ header nav > * {
 
 header nav > *:hover {
     transition: 1s;
-    color: #a711bb;
+    /* color: #a711bb; */
     border-left-color: #a711bb;
     border-bottom-color: #a711bb;
-    font-size: 23px;
+    font-size: 25px;
+    height: 100%;
 }

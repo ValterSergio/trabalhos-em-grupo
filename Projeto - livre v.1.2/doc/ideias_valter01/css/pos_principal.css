@@ -5,7 +5,7 @@ main {
     grid-template-rows: 5% 25% 70%;
     grid-template-areas: "aside h2"
                          "aside p"
-                         "div div";
+                         "aside div";
 }
 
 main h2 {
@@ -27,3 +27,8 @@ main aside > * {
     max-width: 150px;
     max-height: 600px;
     }
+
+main div {
+    grid-area: div;
+    border: solid;
+}
