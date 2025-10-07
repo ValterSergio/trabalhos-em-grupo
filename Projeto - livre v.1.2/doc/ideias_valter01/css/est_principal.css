@@ -15,10 +15,17 @@ main > h2 {
 }
 
 main aside > * {
-    transition: 0.8s;
+    transition: 1s;
 }
 main aside > *:hover {
     border: solid 1px;
     box-shadow: 2px 2px;
 }
 
+main div {
+    width: 90%;
+}
+
+p {
+    font-size: larger;
+}

@@ -8,7 +8,6 @@ div > form {
     border-radius: 35px;
     text-align: center;
     
-
     /* Posição do formulario de login */
     width: 80%;
     height: 50%;
@@ -22,43 +21,23 @@ div > form > * {
 }
 
 div > form > label > input {
-
     box-shadow: 1px 1px #a711bb;
     border: solid 1px #a711bb;
 }
 
 
-div form button {
+div > form > button {
     border: solid 1px;
     border-radius: 15px;
     box-shadow: 2px 2px;
 }
- div form button:hover {
+ div > form > button:hover {
     transition: all 1s;
     font-size: x-large;
  }
 
- div form > p {
-    font-size: medium;
- }
-
- div form > p >  a:hover {
+ div > form > p >  a:hover {
     transition: 1s;
-    font-size: large;
-    color: #0000ff;
- }
-
- 
- main > p {
-    margin: 0px;
-    text-align: justify;
-    justify-self: center;
     font-size: x-large;
-    height: 30px;
- }
-
- main > h2 {
-    margin: 0px;
-    justify-self: center;
-    align-self: center;
+    color: #0000ff;
  }
