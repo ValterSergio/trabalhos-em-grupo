@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/est_cabecalho.css">
     <link rel="stylesheet" href="/css/pos_principal.css">
     <link rel="stylesheet" href="/css/est_principal.css">
-    <link rel="stylesheet" href="/css/est_login.css">
+    <link rel="stylesheet" href="/css/est_cadastro.css">
     <link rel="shortcut icon" href="/img/slogan_site.png" type="image/x-icon">
     <title>Login</title>
 </head>
@@ -29,8 +29,8 @@
     </header>
 
     <main>
-        <h2>Login</h2>
-        <p>Faça Login e acompanhe seu progresso</p>
+        <h2>Cadastre-se</h2>
+        <p>Cadastre-se e acompanhe seu aprendizado de forma gamificada.</p>
         <aside>
             <!-- Apenas decorativo  -->
             <img src="/img/img_secao.png" alt="">
@@ -42,14 +42,17 @@
         <!-- Só copiar e tacar div's aqui dentro com os conteudos de cada parte -->
         <div>
             <form>
-
+                <br>
+                <label for="nomeUsuario">Nome: <input type="text" required ></label>
                 <br>
                 <label for="emailUsuario">E-mail: <input type="text" id="emailUsuario" required pattern=".+@.+"></label>
                 <br>
                 <label for="senhaUsuario">Senha: <input type="password"  id="senhaUsuario" required></label>
+                <br>
+                <label for="senhaUsuario1">Confirmar senha: <input type="password"  id="senhaUsuario1" required></label>
                 <br> <br>
                 <button type="submit">Confirmar</button>
-                <p>Para criar uma conta <a href="#">clique aqui</a></p>
+                <p>Já tem uma conta <a href="#">clique aqui</a> para fazer login.</p>
                 <p id="resultadoCadastro"></p>
             </form>
         </div>

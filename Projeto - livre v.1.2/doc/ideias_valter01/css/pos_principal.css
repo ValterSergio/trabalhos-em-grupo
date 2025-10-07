@@ -10,10 +10,14 @@ main {
 
 main h2 {
     grid-area: h2;
+    width: 90%;
+    justify-self: center;
 }
 
 main p {
     grid-area: p;
+    width: 90%;
+    justify-self: center;
     
 }
 
@@ -31,3 +35,4 @@ main div {
     width: 90%;
     justify-self: center;
 }
+

@@ -6,10 +6,12 @@ main, main > * {
 main > p {
     font-size: larger;
     text-align: justify;
+    text-indent: 20px;
 }
 
 main > h2 {
     font-size: xx-large;
+    text-align: center;
 }
 
 main aside > * {

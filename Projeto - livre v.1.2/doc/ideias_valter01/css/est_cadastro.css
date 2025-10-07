@@ -20,13 +20,11 @@ div > form > * {
     font-size: large;
     color: #a711bb;
 }
-
 div > form > label > input {
 
     box-shadow: 1px 1px #a711bb;
     border: solid 1px #a711bb;
 }
-
 
 div form button {
     border: solid 1px;
