@@ -1,0 +1,55 @@
+div {
+    align-content: center;
+}
+
+div > form {
+    box-shadow: 5px 2px;
+    border: solid;
+    border-radius: 35px;
+    text-align: center;
+    
+    /* Posição do formulario de login */
+    margin: auto;
+    width: 90%;
+    height: 80%;
+}
+
+div > form > * {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #a711bb;
+}
+
+div > form > label {
+    display: block;
+    margin: 0px;
+    height: 5%;
+    align-content: center;
+}
+
+div > form > label > input {
+    box-shadow: 1px 1px #a711bb;
+    border: solid 1px #a711bb;
+    width: 30%;
+    height: 25px;
+}
+
+
+div > form > button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid 1px;
+    border-radius: 15px;
+    box-shadow: 2px 2px;
+    font-size: x-large;
+}
+div > form > button:hover {
+    font-size: xx-large;
+    transition: all 1s;
+ }
+
+ div > form > p >  a:hover {
+    transition: 1s;
+    font-size: 120%;
+    color: #0000ff;
+ }

@@ -1,0 +1,51 @@
+/* RECOMENDO VER CADA UM SEPARADAMENTE, POIS CADA UM TEM SUA FUNÇAO ESPECIFICA e alguns sao só obs*/
+
+
+
+
+header h1 {
+    color: #a020f0; /* Cor roxa vibrante bonita */
+    margin-bottom: 0; /* deixa melhor centralizado acredito eu */
+}
+
+header h2 {
+    color: #d500f9; /* contraste legal, agradeço ao chat gpt*/
+    margin-top: 8px; /* deixa melhor centralizado acredito eu */
+    font-size: 1.3em; /* tamanho um pouco menor que o h1 */  
+
+}
+
+footer {
+    background: linear-gradient(180deg, #d1c4e9, #a48dce); /* degrade da esquerda para a direita, 0 degraus para comecar de cima e ir pra baxio */
+    text-align: center;
+    padding: 18px 0; /* distancia do texto para as bordas de cimae baxio */
+    font-size: 1.1em;
+   /* color: #6a1b9a;  */
+    margin-top: 24px; /* ajuda na ideia de separaçao */
+    transition: 3s;
+}
+
+/* ao mesmo tempo que eu gostei eu n gostei, pq n sei se fica bom o efeito, mas ta ai */    
+footer :hover {
+    background: linear-gradient(180deg, #a48dce, #d1c4e9); /* inverte o degrade */
+    }
+
+nav {
+    border: 6px solid #a020f0; /* borda roxa vibrante */
+    border-radius: 12px; /* bordas arredondadas */
+    background-color: #ce93dd; /* cor de fundo roxa clara */
+   
+}
+
+/* OBS: tem um problema, pela nao utilizaçao de grid ou container, o aside so pega a primeira imagem diifcultando a estilização como pode ver abaixo
+aside {
+    background-color: black;
+}
+ */
+
+
+/*OBS: e o main ocupa tanto o aside quanto o main, ent dificulta na hr de colocar borda 
+main {
+    border: #a020f0 6px solid; 
+} 
+*/

@@ -1,0 +1,30 @@
+main, main > * {
+    background-color: #ffeff2;
+    color: #a711bb;
+}
+
+main > p {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main > h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+main aside > * {
+    transition: 1s;
+}
+
+main aside > *:hover {
+    border: solid 1px;
+    box-shadow: 2px 2px;
+}
+
+p {
+    font-size: larger;
+}
+

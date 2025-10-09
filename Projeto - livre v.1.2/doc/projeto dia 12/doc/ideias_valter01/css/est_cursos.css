@@ -1,0 +1,25 @@
+main > div {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 1 1;
+    justify-content: center;
+}
+
+main > div > * {
+    height: 20%;
+    border: solid 3px;
+    margin: 1%;
+    box-shadow: 5px 5px;
+    align-content: center;
+    text-align: center;
+    border-radius: 35px;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 50%;
+}
+
+main > div > *:hover {
+    transition: all 1s;
+    height: 25%;
+    font-size: xxx-large;
+}

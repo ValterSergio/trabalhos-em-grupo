@@ -1,0 +1,19 @@
+
+.corPadrao {
+    background-color: white;
+    color: black;
+  }
+  
+  .bordaTeste {
+    border: solid;
+  }
+  
+  .margemPadrao {
+    margin: 1px;
+  }
+
+.tamMax {
+    width: 100%;
+    height: 100%;
+}
+  
